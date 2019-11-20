@@ -11,7 +11,7 @@ This repository contains the implementation of the paper <a href="https://link.s
 
 
 ## Dataset
-Three chest X-Ray datasets were used in the experiments:
+Three chest X-Ray datasets were used in the experiments:<br>
 <a href="http://academictorrents.com/details/ac786f74878a5775c81d490b23842fd4736bfe33">Montgomery County X-ray Set</a>contains 80 normal and 58 abnormal X-Rays with manifestations of tuberculosis. [1][2] <br>
 <a href="http://academictorrents.com/details/462728e890bd37c05e9439c885df7afc36209cc8">Shenzhen Hospital X-ray Set</a> provides 340 normal X-Rays and 275 abnormal X-Rays with various extent of tuberculosis. [1][2] 
 <a href="http://db.jsrt.or.jp/eng.php">Japanese Society of Radiological Technology (JSRT)</a>includes 154 nodule and 93 non-nodule images.[3]
