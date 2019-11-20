@@ -23,7 +23,7 @@ Please cite:
 
 Imran AAZ, Terzopoulos D (2019) Semi-supervised Multi-task Learning with Chest X-Ray Images. In: Suk HI., Liu M., Yan P., Lian C. (eds) Machine Learning in Medical Imaging. MLMI 2019. Lecture Notes in Computer Science, vol 11861. Springer, Cham
 
-'''
+```
 @inproceedings{abdullah2019semi,
 	  title={Semi-supervised Multi-task Learning with Chest X-Ray Images},
 	  author={Abdullah-Al-Zubaer Imran, and Terzopoulos, Demetri},
@@ -33,6 +33,6 @@ Imran AAZ, Terzopoulos D (2019) Semi-supervised Multi-task Learning with Chest X
 	  year={2019},
 	  organization={Springer Nature}
           }
-'''
+```
 
 ## References
