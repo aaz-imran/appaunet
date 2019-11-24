@@ -4,7 +4,7 @@ This repository contains the implementation of the paper <a href="https://link.s
 
 ## Model
 
-<a href="appaunet-final.png">
+![](appaunet-final.png?raw=true)
 
 ## Loss Functions
 
