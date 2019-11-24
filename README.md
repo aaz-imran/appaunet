@@ -7,8 +7,6 @@ The APPAU-Net model consists of two major building blocks, a segmentor $S$ and a
 
 ![](appaunet-final.png?raw=true)
 
-## Loss Functions
-
 
 
 ## Dataset
@@ -16,6 +14,43 @@ Three chest X-Ray datasets were used in the experiments:<br>
 <a href="http://academictorrents.com/details/ac786f74878a5775c81d490b23842fd4736bfe33">Montgomery County X-ray Set</a> contains 80 normal and 58 abnormal X-Rays with manifestations of tuberculosis. [1][2] <br>
 <a href="http://academictorrents.com/details/462728e890bd37c05e9439c885df7afc36209cc8">Shenzhen Hospital X-ray Set</a> provides 340 normal X-Rays and 275 abnormal X-Rays with various extent of tuberculosis. [1][2] <br>
 <a href="http://db.jsrt.or.jp/eng.php">Japanese Society of Radiological Technology (JSRT)</a> includes 154 nodule and 93 non-nodule images.[3]
+
+
+## How to Use
+Select the loss function and the network from the following options for the segmentation-only task. While for multi-tasking, the networks are fixed `Pyramid Progressive Attention U-Net` as the Segmentor S and a conv-net as the Discriminator D.
+
+### Single Task: Segmentation Only
+##### Choice of Loss Functions
+<ol>
+  <li>XE Loss</li>
+  <li>Tversky Loss</li>
+  <li>Dice Loss</li>
+  <li>KL-Tversky Loss</li>
+</ol>
+
+##### Choice of Segmentation Networks
+<ol>
+  <li>U-Net</li>
+  <li>Pyramid U-Net</li>
+  <li>Progressive U-Net</li>
+  <li>Attention U-Net</li>
+  <li>Pyramid Progressive U-Net</li>
+  <li>Progressive Attention U-Net</li>
+  <li>Pyramid Progressive Attention U-Net</li>
+</ol>
+
+### Multi-Task
+##### Choice of Network
+<ol>
+  <li>Adversarial Pyramid Progressive Attention U-Net</li>
+</ol>
+
+##### Choice of Loss Functions
+<ol>
+  <li>Tversky Loss</li>
+  <li>XE-Tversky Loss</li>
+  <li>KL-Tversky Loss</li>
+</ol>
 
 
 
