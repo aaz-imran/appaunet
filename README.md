@@ -35,6 +35,7 @@ Select the loss function and the network from the following options for the segm
   <li>Progressive U-Net</li>
   <li>Attention U-Net</li>
   <li>Pyramid Progressive U-Net</li>
+  <li>Pyramid Attention U-Net</li>
   <li>Progressive Attention U-Net</li>
   <li>Pyramid Progressive Attention U-Net</li>
 </ol>
