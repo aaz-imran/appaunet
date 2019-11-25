@@ -1,9 +1,9 @@
 # Adversarial Pyramid Progressive Attention U-Net
-This repository contains the implementation of the paper <a href="https://link.springer.com/chapter/10.1007/978-3-030-32692-0_18">Semi-supervised Multi-task Learning with Chest X-Ray Images.</a> 
+This repository contains the implementation of the paper <a href="https://link.springer.com/chapter/10.1007/978-3-030-32692-0_18">Semi-supervised Multi-task Learning with Chest X-Ray Images.</a> This propose adversarial pyramid progressive attention u-net (APPAU-Net) model for jointly performing segmentation of lungs and classification of diseases from chest radiographs. 
 
 
 ## Model
-The APPAU-Net model consists of two major building blocks, a segmentor $$S$$ and a discriminator $D$ (Figure). $S$ primarily performs segmentation prediction $\hat{y}$ from a given image $x$. $S$ consists of a pyramid encoder and a progressive attention-gated decoder modifying a U-Net. The S network receives the image input x at different scales in different stages of the encoder. The segmentor $S$ predicts segmentation $\hat{y}$ from a given image $x$. The discriminator $D$ predicts the class label $\hat{z}$ from image-real label pair $(x, y); z = 0\dots n are real disease classes and $z = n + 1$ is an extra class denoting the prediction.
+The APPAU-Net model consists of two major building blocks, a segmentor \mathbf{S} and a discriminator \mathbf{D} (Figure). \mathbf{S} primarily performs segmentation prediction $\hat{y}$ from a given image \mathbf{x}. \mathbf{S} consists of a pyramid encoder and a progressive attention-gated decoder modifying a U-Net. The \mathbf{S} network receives the image input \mathbf{x} at different scales in different stages of the encoder. The segmentor \mathbf{S} predicts segmentation $\hat{y}$ from a given image \mathbf{x}. The discriminator \mathbf{D} predicts the class label $\hat{z}$ from image-real label pair $(x, y); z = 0\dots n$ are real disease classes and $z = n + 1$ is an extra class denoting the prediction.
 
 ![](appaunet-final.png?raw=true)
 
