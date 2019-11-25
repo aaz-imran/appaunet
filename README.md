@@ -3,7 +3,7 @@ This repository contains the implementation of the paper <a href="https://link.s
 
 
 ## Model
-The APPAU-Net model consists of two major building blocks, a segmentor \mathbf{S} and a discriminator \mathbf{D} (Figure). \mathbf{S} primarily performs segmentation prediction $\hat{y}$ from a given image \mathbf{x}. \mathbf{S} consists of a pyramid encoder and a progressive attention-gated decoder modifying a U-Net. The \mathbf{S} network receives the image input \mathbf{x} at different scales in different stages of the encoder. The segmentor \mathbf{S} predicts segmentation $\hat{y}$ from a given image \mathbf{x}. The discriminator \mathbf{D} predicts the class label $\hat{z}$ from image-real label pair $(x, y); z = 0\dots n$ are real disease classes and $z = n + 1$ is an extra class denoting the prediction.
+The APPAU-Net model consists of two major building blocks, a segmentor $\mathbf{S}$ and a discriminator \mathbf{D} (Figure). \mathbf{S} primarily performs segmentation prediction $\hat{y}$ from a given image \mathbf{x}. \mathbf{S} consists of a pyramid encoder and a progressive attention-gated decoder modifying a U-Net. The \mathbf{S} network receives the image input \mathbf{x} at different scales in different stages of the encoder. The segmentor \mathbf{S} predicts segmentation $\hat{y}$ from a given image \mathbf{x}. The discriminator \mathbf{D} predicts the class label $\hat{z}$ from image-real label pair $(x, y); z = 0\dots n$ are real disease classes and $z = n + 1$ is an extra class denoting the prediction.
 
 ![](appaunet-final.png?raw=true)
 
